@@ -1,0 +1,288 @@
+@charset 'utf-8';
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+a,
+u {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+    display: block;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+#main {
+    width: 600px;
+    height: 530px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid #000;
+    position: absolute;
+    z-index: 5;
+}
+
+.title {
+    height: 80px;
+    border-bottom: 1px solid #000;
+}
+
+.title h3 {
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+#status {
+    color: #12ac40;
+}
+
+.main-con {
+    width: 600px;
+    height: 330px;
+    background: #fff;
+    overflow: auto;
+    border-bottom: 1px solid #000;
+}
+
+.main-con img {
+    max-width: 60%;
+    max-height: 60%;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+#expand{
+    position: relative;
+}
+
+.emojiDiv{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    background: #ccc;
+    top: -202px;
+    display: none;;
+}
+
+.emojiDiv li{
+    float: left;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.emojiDiv li:hover{
+    border-color: #c41f3a;
+}
+
+.emojiDiv img{
+    width: 48px;
+    height: 48px;
+}
+
+.emojiImg{
+    width: 100px;
+    height: 100px;
+}
+
+.imageLable {
+    position: relative;
+}
+
+#sendImage {
+    position: absolute;
+    width: 52px;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.textMain {
+    position: relative;
+}
+
+.textCon {
+    width: 578px;
+    height: 71px;
+    resize: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.sendText {
+    width: 66px;
+    height: 24px;
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    top: 60px;
+}
+.sendText:hover{
+    background: #129611;
+    color: #fff;
+}
+.login {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(5, 5, 5, .6);
+    z-index: 6;
+}
+
+#infoMain {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -25px;
+}
+
+#info {
+    color: #c02525;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    font-weight: 600;
+}
+
+#loginDiv {
+    display: none;
+}
+
+#loginInput {
+    width: 170px;
+    height: 30px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#loginBtn {
+    width: 43px;
+    height: 35px;
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+.userLoginIn {
+    color: #12ac40;
+    clear: both;
+}
+
+.userLoginOut {
+    color: red;
+    clear: both;
+}
+
+.timeSpan {
+    color: #999!important;
+}
+.textP{
+    clear: both;
+}
+.pSpan{
+    float: left;
+    margin-top: 5px;
+    clear: both;
+    margin-bottom: 10px;
+}
+.pSpan img{
+    margin-left: 20px;
+}
+.conSpan{
+    display: inline-block;
+    white-space: pre-wrap;
+    max-width: 60%;
+    float: left;
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.picBtn,#clearBtn,#emoji{
+    width: 58px;
+    height: 21px;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+    background: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+#clearBtn:hover{
+    background: #12ac40;
+    color: #fff;
+}
+#emoji:hover{
+    background: #12ac40;
+    color: #fff;
+}
