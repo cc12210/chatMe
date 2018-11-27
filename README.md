@@ -1,15 +1,9 @@
 ﻿# chatMe
 基于nodejs的群体聊天室
 
-前提是已经安装了node.js
+cnpm i 或者npm i
 
-首先在项目根文件夹按住shift再右键 打开命令行
-
-然后输入 npm install express
-
-安装完成之后再 npm install socket.io
-
-安装完成之后就可以使用了   输入 node server.js即可
+安装完成之后就可以使用了   运行 node server.js
 
 浏览器输入自己的主机地址即可进入,ipv4地址  如果在服务器运行输入域名
 
